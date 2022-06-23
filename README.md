@@ -1,2 +1,4 @@
 # monk-census
 Replication code for Ryavec and Bowman (2021), "Comparing Historical Tibetan Population Estimates with the Monks and Nuns: What was the Clerical Proportion?", in which Tibetan farmland and other envrionmental and social factors are used to estimate the clerical population of historical Tibet. 
+
+The qgis calculation code scripts many, chained geoprocessing and calculation tasks within QGIS in order to come to the final population numbers. The census script cleans and prepares the census data to then be spatially joined to monestary points within QGIS. For more context, you can read the article here: http://himalaya.socanth.cam.ac.uk/collections/journals/ret/pdf/ret_61_06.pdf. You can also find much of the same info at Harvard Dataverse along with shapefiles where it was originally published prior to publication here: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C7ZKCD.
